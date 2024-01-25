@@ -1,0 +1,10 @@
+<title>calculato.js</title>function calculateConversion() {
+    var inputValue = parseFloat(document.getElementById('inputValue').value);
+
+    // Example: Convert meters to kilometers
+    var conversionFactor = 0.001;
+    var result = inputValue * conversionFactor;
+
+    document.getElementById('result').innerText = "Result: " + result + " kilometers";
+}
+

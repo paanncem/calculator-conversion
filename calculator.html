@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>conversion.html</title>
+    <script src="calculator.js" defer></script>
+    <title>calculator.html</title>
 </head>
 <body>
     <header>
-        <h1>Conversion Processes</h1>
+        <h1>Conversion Calculator</h1>
     </header>
     <section>
-        <p>This page will describe various conversion processes such as currency conversion, measurement conversion, character conversion, and more.</p>
+        <label for="inputValue">Enter Value:</label>
+        <input type="text" id="inputValue">
+        <button onClick="calculateConversion()">Calculate</button>
+        <p id="result"></p>
     </section>
     <footer>
         <p>&copy; 2024 [Adib Farhan]</p>
     </footer>
 </body>
 </html>
+

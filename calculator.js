@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>conversion.html</title>
+    <title>index.html</title>
 </head>
 <body>
     <header>
-        <h1>Conversion Processes</h1>
+        <h1>Welcome to My Conversion Calculator</h1>
     </header>
     <section>
-        <p>This page will describe various conversion processes such as currency conversion, measurement conversion, character conversion, and more.</p>
+        <p>Hello! I'm [Your Name]. This website is designed to help you with various conversions. Explore the pages to learn more!</p>
     </section>
     <footer>
         <p>&copy; 2024 [Adib Farhan]</p>
     </footer>
 </body>
 </html>
+
